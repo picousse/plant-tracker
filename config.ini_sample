@@ -1,0 +1,7 @@
+[Connector]
+s1 = 
+
+
+[Influx]
+host = 
+port= 
