@@ -51,7 +51,7 @@ def poll(antenna):
 
 def write_to_influx(json_body):
     
-    client = InfluxDBClient(host=config['Influx']['host'], port=int(config['Influx']['port'])
+    client = InfluxDBClient(host=config['Influx']['host'], port=int(config['Influx']['port']))
 
     client.write_points(
         json_body,
